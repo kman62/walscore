@@ -3,7 +3,7 @@ import streamlit as st
 def calculate_total(accuracy, clarity, customer_focus, business_impact, conciseness, organization, actionability):
     return accuracy + clarity + customer_focus + business_impact + conciseness + organization + actionability
 
-st.title('Amazon Technical Document Scoring Rubric')
+st.title('WAL Scoring Rubric')
 
 st.header('Quality Metrics')
 accuracy = st.slider('Accuracy (0-5 points)', min_value=0, max_value=5, value=0)
